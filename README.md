@@ -1,4 +1,4 @@
-#nlog
+#logn
 
 Logging module for node
 
@@ -24,9 +24,9 @@ As of now the following logging trasports are supported
 
 The node-log module can be used by creating a new instance of Logger.
 
-    var nlog = require('nlog');
+    var logn = require('logn');
 
-    var logger = new nodelog.createLogger({
+    var logger = new logn.createLogger({
       debugLevel: 'error',
       consoleLog: true, //whether to log messages to console
       fileLog: true,  //whether to log messages to file
