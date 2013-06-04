@@ -1,11 +1,11 @@
 {
-  "name": "node-mysql-log",
+  "name": "nlog",
   "version": "0.0.1",
   "author": "Abhishek Kandoi <abhikandoi2000@gmail.com> (http://abhikandoi.in)",
-  "description": "MySQL logging module for node",
+  "description": "Logging module for node",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abhikandoi2000/node-mysql-log.git"
+    "url": "https://github.com/abhikandoi2000/nlog.git"
   },
   "dependencies": {
     "mysql": "2.0.0-alpha8"
@@ -15,7 +15,8 @@
     "log",
     "mysql",
     "console",
-    "file"
+    "file",
+    "debug"
   ],
   "license": "MIT",
   "main": "index",
