@@ -20,6 +20,12 @@ As of now the following logging trasports are supported
 
     mysql - mysql driver for node
 
+##Installation
+
+###Installing logn
+
+    npm install logn
+
 ##Usage
 
 The logn module can be used by creating a new instance of Logger.
