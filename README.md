@@ -26,7 +26,15 @@ As of now the following logging trasports are supported
 
     npm install logn
 
+###Creating the table from the schema
+
+Create a table using the `logs.sql` schema file provided in the `schema` folder
+
+    Note: The table name for this table should be supplied while creating a new instance of the Logger
+
 ##Usage
+
+###Creating a new instance
 
 The logn module can be used by creating a new instance of Logger.
 
@@ -50,7 +58,9 @@ The logn module can be used by creating a new instance of Logger.
   });
 ```
 
-Now you can use the `logger` object to log the errors.
+###Logging the messages
+
+Now you can use the `logger` object to log the messages.
 
 ``` js
   // using the generic log method
@@ -61,6 +71,8 @@ Now you can use the `logger` object to log the errors.
 ```
 
 A datetime stamp is automatically added while logging messages to MySQL and file.
+
+###Destroying the connection
 
 Make sure that you destroy the connection to the MySQL database(not required if the `mySQLLog` config option is set to false).
 
