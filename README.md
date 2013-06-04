@@ -22,7 +22,7 @@ As of now the following logging trasports are supported
 
 ##Usage
 
-The node-log module can be used by creating a new instance of Logger.
+The logn module can be used by creating a new instance of Logger.
 
 ``` js
   var logn = require('logn');
