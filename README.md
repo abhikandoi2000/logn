@@ -41,7 +41,7 @@ The logn module can be used by creating a new instance of Logger.
 ``` js
   var logn = require('logn');
 
-  var logger = new logn.createLogger({
+  var logger = logn.createLogger({
     debugLevel: 'error',
     consoleLog: true, //whether to log messages to console
     fileLog: true,  //whether to log messages to file
